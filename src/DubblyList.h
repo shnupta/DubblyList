@@ -32,5 +32,4 @@ int dub_destroy(DubblyList *list); // completely delete the list and all nodes
     DubblyNode *C = NULL;\
     for(C = _node = L->S; _node != NULL; C = _node = _node->N)
 
-
 #endif

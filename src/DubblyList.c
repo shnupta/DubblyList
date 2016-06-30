@@ -120,36 +120,3 @@ int dub_destroy(DubblyList *list)
     return 1;
 
 }
-
-int main(int argc, char const *argv[])
-{
-
-    DubblyList *list = create_dubbly_list();
-    DubblyList *new = create_dubbly_list();
-
-    printf("%d\n", dub_length(new));
-
-    dub_slap(list, 4);
-    dub_slap(list, 7);
-    dub_slap(list, 9);
-    dub_slap(list, 6);
-
-    dub_shift(list, 96);
-    dub_shift(list, 10001);
-
-    dub_pop(list);
-
-    dub_slice(list);
-
-    dub_length(list);
-
-    for_dubbly(list, tail, prev, cur) {
-        printf("%d\n", cur->value);
-    }
-
-    dub_destroy(list);
-
-
-    return 0;
-
-}

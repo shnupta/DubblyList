@@ -1,4 +1,4 @@
-# DoublyStack
+# DubblyList
 My own doubly linked list structure with some basic functions.
 
 <h2>Main Functions:</h2>
@@ -70,3 +70,6 @@ for_dubbly(list, tail, prev, cur) {
 }
 ```
 To prevent redefinition errors when using the loop. Just change the name of the last argument.
+
+NEED TO FIX CLEAR AND DESTROY FUNCTIONS.
+TRY AND FIX ITERATION SO YOU CAN HAVE MULTIPLE LOOPS.
