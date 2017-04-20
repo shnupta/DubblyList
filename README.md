@@ -83,5 +83,4 @@ for_dubbly(list, tail, prev, cur) {
 
 To prevent redefinition errors when using the loop. Just change the name of the last argument.
 
-NEED TO FIX CLEAR AND DESTROY FUNCTIONS.
-TRY AND FIX ITERATION SO YOU CAN HAVE MULTIPLE LOOPS.
+FIX ITERATION SO YOU CAN HAVE MULTIPLE LOOPS.
